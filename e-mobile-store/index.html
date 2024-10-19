@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emobile store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="img/logo.png" width="150px" alt="logo"></div>
+            <div class="search">
+                <input type="text" name="" id="" placeholder="Search for Products">
+                <button class="btn">Search</button>
+            </div>
+            <ul> 
+                <li id="firstelement"></li>
+                <li><a href="phone.html">Mobiles</a></li>
+                <li><a href="acessories.html">Acessories</a></li>
+                <li><a href="laptop.html">Laptop</a></li>
+                <li id="username" style="color: #ff8c00;font-size: 1.3rem;font-weight: 500;"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/iPhone.jpg" alt="img1"></div>
+                    <div class="swiper-slide"><img src="img/sliderimg6.jpg" alt="img2"></div>
+                    <div class="swiper-slide"><img src="img/sliderimg2.jpg" alt="img3"></div>
+                    <div class="swiper-slide"><img src="img/sliderimg3.webp" alt="img4"></div>
+                    <div class="swiper-slide"><img src="img/sliderimg5.jpg" alt="img5"></div>
+                    ...
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <body>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                    autoplay: {
+                        delay: 3000,
+                        disableonInteraction: false,
+                    },
+                    loop: true,
+
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            </script>
+            <h2 class="my-2">BEST SELLING DEVICES</h2>
+            <div class="cards">
+                <div class="carditem">
+                    <img src="img/iphone14.png" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">APPLE</h3>
+                        <h3 class="text-center">IPHONE 14</h3>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/iphone13.png" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">APPLE</h3>
+                        <h3 class="text-center">IPHONE 13</h3>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/oneplus 10r.png" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">ONEPLUS</h3>
+                        <h3 class="text-center">10R</h3>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/oneplus 10t.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">ONEPLUS</h3>
+                        <h3 class="text-center">10T</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <h2 class="my-2">BEST SELLING LAPTOPS</h2>
+            <div class="cards">
+                <div class="carditem">
+                    <img src="img/MACBOOK AIR.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">APPLE</h3>
+                        <h3 class="text-center">Macbook Air M1</h3>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/HP CORE I5.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">HP Core i5 12th Gen</h3>
+                        <h3 class="text-center">14s - dy5005TU </h3>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/ASUS TUF.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">ASUS TUF Gaming A17</h3>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/ACER.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">acer Aspire 7</h3>
+                        <h3 class="text-center">10T</h3>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/LENOVO.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">Lenovo IdeaPad Gaming</h3>
+                    </div>
+                </div>
+            </div>
+            <h2 class="my-2">MOBILE ACESSORIES</h2>
+            <div class="cards">
+                <div class="carditem">
+                    <img src="img/mobilecable.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">Micro USB Cable</h3>
+                        <h4 class="text-center">Macbook Air M1</h4>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/lightiningcable.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">Lightning Cable</h3>
+                        <h4 class="text-center">Syn & fast charging</h4>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/mobilecharger1.webp" width="180px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">Mobile Charger</h3>
+                        <h4 class="text-center">10% Off</h4>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/selfiestick.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">Selfie Sticks</h3>
+                        <h4 class="text-center">Click Picture Anywhere</h4>
+                    </div>
+                </div>
+                <div class="carditem">
+                    <img src="img/mobilecleaningkit.webp" width="250px" alt="">
+                    <div class="lines">
+                        <h3 class="text-center">Mobile Cleaning Kit</h3>
+                        <h4 class="text-center">clean up your device</h4>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img width="1475px" src="img/boats1.jpg" alt="">
+            </div>
+            <section class="product mtop">
+                <div class="container">
+                  <div class="heading heading2">
+                    <img width="150px" src="img/boatlogo.jpg" alt="">
+                    <h2>LATEST PRODUCTS</h2>
+                  </div>
+          
+                  <div class="content mtop grid">
+                    <div class="box">
+                      <div class="img">
+                        <img width="350px" src="img/BOAT5.jpg" />
+                      </div>
+                      <div class="text">
+                        <!-- <h3>BOAT</h3> -->
+                        <!-- <h3>(Starlight Black,256GB)</h3> -->
+                        <!-- <p><span>₹47999 </span> ₹31999</p> -->
+                      </div>
+                    </div>
+                    <div class="box">
+                      <div class="img">
+                        <img width="380px" src="img/BOAT6.jpg" />
+                      </div>
+                      <div class="text">
+                        <!-- <h3>BOAT</h3> -->
+                        <!-- <h3>(Starry Black,256GB)</h3> -->
+                        <!-- <p><span>₹37990</span>₹25999</p> -->
+                      </div>
+                    </div>
+                    <div class="box">
+                      <div class="img">
+                        <img width="350px" src="img/BOAT4.webp" />
+                      </div>
+                      <div class="text">
+                        <!-- <h3>BOAT</h3> -->
+                        <!-- <h3>(Shimmer Gold,128GB)</h3> -->
+                        <!-- <p><span>₹38999 </span> ₹29999</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+    </main>
+    </div>
+    <footer class="flex-all-center">
+        <p>2022Copyright&copy;india Emobile Store-All Rights Reserved</p>
+    </footer>
+    <script src="js/login.js"></script> 
+</body>
+
+
+</html>

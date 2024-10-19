@@ -1,0 +1,15 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+    
+}
+.text-center h4{
+    
+}
+.my-2{
+    margin: 40px 30px;
+}
